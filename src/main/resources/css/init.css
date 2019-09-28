@@ -1,0 +1,20 @@
+
+.btn_login {
+    -fx-background-color: #3366ff;
+    -fx-text-fill: black;
+}
+.btn_register {
+    -fx-background-color: #3366ff;
+    -fx-text-fill: black;
+}
+
+.layout{
+    -fx-background-color: #ccccff;
+}
+.tf_login{
+    -fx-background-color: #e1f5fe;
+}
+.pf_password{
+    -fx-background-color: #e1f5fe;
+}
+

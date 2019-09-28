@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" onKeyPressed="#keyregisteraction" prefHeight="400.0" prefWidth="600.0" styleClass="layout" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="76.0" layoutY="54.0" prefHeight="17.0" prefWidth="446.0" text="PANEL REJESTRACJI">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="10.0" layoutY="94.0" prefHeight="5.0" prefWidth="600.0" />
+      <TextField fx:id="tf_login" alignment="CENTER" layoutX="198.0" layoutY="121.0" promptText="PODAJ LOGIN" styleClass="tf_login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="pf_password" alignment="CENTER" layoutX="198.0" layoutY="190.0" promptText="PODAJ HASLO" styleClass="pf_password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="pf_password_confirm" alignment="CENTER" layoutX="198.0" layoutY="253.0" promptText="POWTORZ HASLO" styleClass="pf_password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="btn_back" layoutX="422.0" layoutY="316.0" mnemonicParsing="false" onAction="#backAction" onMouseEntered="#entermouseactionreg" onMouseExited="#exitmouseactionreg" styleClass="btn_register" text="POWRÓT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_register" layoutX="95.0" layoutY="316.0" mnemonicParsing="false" onAction="#registerAction" onMouseEntered="#entermouseaction" onMouseExited="#exitmouseaction" styleClass="btn_login" text="ZAREJESTRUJ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbl_error" alignment="CENTER" contentDisplay="CENTER" layoutX="96.0" layoutY="359.0" prefHeight="27.0" prefWidth="422.0" textFill="#e10a0a" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="cb_showpassword" layoutX="435.0" layoutY="201.0" mnemonicParsing="false" onAction="#showPassword" prefHeight="17.0" prefWidth="140.0" text="pokaż hasło" />
+      <TextField fx:id="tf_password" alignment="CENTER" layoutX="198.0" layoutY="190.0" promptText="PODAJ HASŁO" styleClass="tf_login" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_password_confirm" alignment="CENTER" layoutX="198.0" layoutY="253.0" promptText="POWTÓRZ HASŁO" styleClass="tf_login" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

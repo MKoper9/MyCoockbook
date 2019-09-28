@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyCoockbook:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyCoockbook_jar</output-path>
+    <root id="archive" name="MyCoockbook.jar">
+      <element id="module-output" name="MyCoockbook" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
