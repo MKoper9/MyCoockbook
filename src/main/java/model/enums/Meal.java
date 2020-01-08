@@ -2,6 +2,6 @@ package model.enums;
 
 public enum Meal {
 
-    śniadanie, obiad, kolacja,deser
+    śniadanie, obiad, kolacja,deser, przekąska
 
 }
